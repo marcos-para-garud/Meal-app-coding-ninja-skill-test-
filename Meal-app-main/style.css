@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+/* Change background color and text color */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('mealApp.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+    /* Additional CSS Styles */
+   
+#nav {
+    box-shadow: none;
+}
+#heading {
+    margin-top: 60px;
+}
+
+#heading h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#search-bar input[type="search"] {
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: black solid 2px;
+    outline: none;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* Favourites Offcanvas Body */
+#favourites-body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#search-bar {
+    width: 50%;
+}
+
+/* Update card background and text color */
+#card {
+    background-color: #32b3bf;
+    color: #3d1010;
+}
+
+/*card image border-radius */
+#card img {
+    border-radius: 8px;
+}
+
+/*  meal details container styles */
+#meal-details {
+    background-color: #6f2020;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
